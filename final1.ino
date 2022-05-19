@@ -3,8 +3,8 @@
 #include <ArduinoMqttClient.h>
 
 #define LED_BUILTIN  2
-const char *ssid_Router     = "Froth2020 2.4 GHz"; //Enter the router name
-const char *password_Router = "Pfeifroth2020"; //Enter the router password.
+const char *ssid_Router     = ""; //Enter the router name
+const char *password_Router = ""; //Enter the router password.
 
 WiFiClient wclient;
 MqttClient mqttClient(wclient);
